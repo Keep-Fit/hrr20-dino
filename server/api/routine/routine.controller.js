@@ -5,7 +5,7 @@ const db = require('../../../database/db_m.js');
 module.exports = {
   //Adds a user's routine to the Routine table
   addARoutine: function (req, res, next) {
-    //console.log('routine adding, req', req);
+    console.log('routine adding, req', req.body);
     let routine = {
         name: req.body.name,
         description: req.body.description,

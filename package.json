@@ -37,6 +37,7 @@
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
     "react-addons-test-utils": "^15.4.1",
+    "react-edit-inline": "^1.0.8",
     "sinon": "^1.17.6",
     "stream-series": "^0.1.1",
     "vinyl-source-stream": "^1.1.0",
